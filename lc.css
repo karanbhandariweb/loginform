@@ -1,0 +1,84 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+
+.l1{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+    
+}
+
+.l2
+{ 
+    width:1000px;
+    height: 500px;
+   background-color: yellow;
+   display: flex;
+   margin: 20px;
+  
+   }
+    
+.l3{
+    width: 50%;
+    height: 500px;
+    background-image: url("leaf.png");
+    background-size: 100% 100%;
+}    
+.l4{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+h1{
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.l4 input{
+    margin: 0.8rem;
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    text-align: center;
+    color: blue;
+}
+.l4 input[type="button"]
+{
+    background-color: black;
+    color: yellow;
+   
+}
+.l4 input[type="button"]:hover
+{
+    background-color: white;
+    color: blue;
+   
+}
+
+@media (max-width:600px)
+{
+    .l3{
+        display: none;
+    }
+    .l4{
+        width: 100%;
+    }
+}
